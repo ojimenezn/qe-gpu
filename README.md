@@ -1,2 +1,2 @@
 # qe-gpu
-Dockerfile draft to compile Quantum Espresso (QE) executable with GPU support with NVIDIA Toolkit.
+Dockerfile draft to compile Quantum Espresso (QE) executable (pw.x) with GPU support with NVIDIA Toolkit.
