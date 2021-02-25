@@ -41,9 +41,9 @@ RUN make -j64
 RUN make install
 
 # Environment Variables (setting CUDA_HOME to the path of the CUDA installation)
-ENV CUDA_HOME = /usr/local/cuda
-ENV PATH = ${CUDA_HOME}/bin:${PATH}
-ENV LD_LIBRARY_PATH = ${CUDA_HOME}/lib64:$LD_LIBRARY_PATH
+ENV CUDA_HOME /usr/local/cuda
+ENV PATH ${CUDA_HOME}/bin:${PATH}
+ENV LD_LIBRARY_PATH ${CUDA_HOME}/lib64:$LD_LIBRARY_PATH
 
 # Get QE-GPU source code from GitLab and compile make -j8 in parallel
 WORKDIR /opt/pgi
